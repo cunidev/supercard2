@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.supercard-light {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.supercard-light .barcode-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.supercard-light .barcode-grid .barcode-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.supercard-light .barcode-grid .barcode-item .barcode-name {
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.supercard-light .barcode-grid .barcode-item .barcode-image {
+    width: 100%;
+    height: auto;
+}

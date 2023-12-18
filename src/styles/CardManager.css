@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.card-manager {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+}
+
+.card-item:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-item {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card-item {
+        width: calc(25% - 20px);
+    }
+}

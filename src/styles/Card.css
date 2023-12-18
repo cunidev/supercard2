@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.card-edit {
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.card-delete {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.card-barcode {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333333;
+}
